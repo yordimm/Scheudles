@@ -1,0 +1,13 @@
+.btn-day{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    margin-right: 3%;
+    border-radius: 50%; 
+}

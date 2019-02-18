@@ -1,0 +1,44 @@
+.semiContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.subTitle{
+    color: #00627F;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.cRadio{
+    display: flex;
+    justify-content: space-between;
+}
+.inputRadio{
+    margin-left: 8px !important;
+}
+
+input[type=radio]{
+    margin-top: 6px !important;
+    margin-left: 8px !important;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    outline: none;
+    border: 1px solid #999;
+    transition: 0.2s all linear;
+}
+
+input:hover {
+    background-color: #ccc;
+  }
+
+input:checked {
+    background:#00cc99;
+    border: 0px
+  }

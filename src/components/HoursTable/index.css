@@ -1,0 +1,9 @@
+
+.ctn-hour {
+    height: 38px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

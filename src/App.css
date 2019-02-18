@@ -30,3 +30,16 @@
     transform: rotate(360deg);
   }
 }
+
+.card:hover{
+	box-shadow: 0 0 10px #0c0c0c3b;
+
+}
+.line{
+  background: black;
+  width: 1px ;
+  height: 70px
+}
+label {
+  margin-bottom: 0 !important
+}
